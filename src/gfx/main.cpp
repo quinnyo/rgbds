@@ -747,7 +747,7 @@ int main(int argc, char *argv[]) {
 			fputs("\t]\n", stderr);
 		}
 		fprintf(stderr,
-		        "\tInput image slice: %" PRIu32 "x%" PRIu32 " pixels starting at (%" PRIi32
+		        "\tInput image slice: %" PRIu32 "x%" PRIu32 " tiles starting at (%" PRIi32
 		        ", %" PRIi32 ")\n",
 		        options.inputSlice.width, options.inputSlice.height, options.inputSlice.left,
 		        options.inputSlice.top);
